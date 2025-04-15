@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<form action="" method="post">
+    {% csrf_token %}
+    ACC <input type="number" name="acc" id="">
+    <br><br>
+    pin <input type="password" name="pin" id="">
+    <br><br>
+    AMOUNT <input type="number" name="amt" id="">
+    <button type="submit">WITHDRAWL</button>
+</form>
+{% endblock content %}

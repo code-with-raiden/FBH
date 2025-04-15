@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="" method="post">
+{% csrf_token %}
+<label for="">ACCOUNT NUMBER</label>
+<input type="number" name="acc" id=""> <br><br>
+<!-- <label for="">PIN</label>
+<input type="number" name="pin1" id="">
+<label for="">CONFIRM PIN</label>
+<input type="number" name="pin2" id=""> -->
+<button type="submit">GENERATE OTP</button>
+
+
+
+</form>
+{% endblock content %}

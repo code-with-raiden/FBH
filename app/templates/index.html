@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static  %}
+
+<a href="{% url 'create' %}"><img src="{% static 'assets/bank1.png' %}" alt=""></a>
+<a href="{% url 'pin' %}"><img src="{% static 'assets/bank2.png' %}" alt=""></a>
+<a href="{% url 'bal' %}"><img src="{% static 'assets/bank3.png' %}" alt=""></a>
+<a href="{% url 'take' %}"><img src="{% static 'assets/bank4.png' %}" alt=""></a>
+<a href="{% url 'dep' %}"><img src="{% static 'assets/bank5.png' %}" alt=""></a>
+<a href="{% url 'transfer' %}"><img src="{% static 'assets/bank6.png' %}" alt=""></a>
+
+
+{% endblock content %}
