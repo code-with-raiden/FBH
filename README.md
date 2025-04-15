@@ -29,3 +29,6 @@ features
 ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
 
+
+## HOME 
+![Image](https://github.com/user-attachments/assets/5da1ead6-aac8-4702-8498-dbdd4847892e)
